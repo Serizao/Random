@@ -103,7 +103,7 @@ https://gist.github.com/mattifestation/9c342622f5e23c59fda9
                                              ($Flags -as $LogonFlags),     # LOGON_NETCREDENTIALS_ONLY 
                                              $null,
                                              [Text.StringBuilder] $StrBuilder,
-                                             0x08000000, # Don't display a window
+                                             0x00000010, # Don't display a window
                                              $null,
                                              $null,
                                              $StartInfo,
